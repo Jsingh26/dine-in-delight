@@ -1,0 +1,23 @@
+{
+  "name": "register-form",
+  "version": "1.0.0",
+  "description": "This project is a full-stack web application that implements a user registration form. The application is built using HTML, CSS, Node.js, Express.js, and MongoDB. The goal is to create a seamless and secure user registration process, storing user information in a MongoDB database.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "body-parser": "^1.20.2",
+    "dotenv": "^16.4.5",
+    "expres": "^0.0.5",
+    "express": "^4.19.2",
+    "jsonwebtoken": "^9.0.2",
+    "mongodb": "^6.3.0",
+    "mongoose": "^8.5.1"
+  },
+  "devDependencies": {}
+}

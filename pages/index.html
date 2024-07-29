@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .navbar{
+            background-color:whitesmoke;
+            opacity: 0.8;
+            color: black;
+            
+        }
+        .navbar a{
+          text-decoration: none;
+        }
+        .container{
+            background-image:url('OIP.jpg');
+            background-size: cover; /* Add this to cover the entire container */
+            background-repeat: no-repeat;
+            height: 1000px;
+        }
+        #left-intro{
+            margin-left: 65%;
+            margin-right: 5%;
+            margin-top: 80px;
+            padding: 8px;
+            background-color: aliceblue;
+            opacity: 0.7;
+            text-align: center;
+            
+        }
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+body{
+  line-height: 1.5;
+  font-family: 'Poppins', sans-serif;
+}
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+.containerfooter{
+  max-width: 1170px;
+  margin:auto;
+}
+.row{
+  display: flex;
+  flex-wrap: wrap;
+}
+ul{
+  list-style: none;
+}
+.footer{
+  background-color: #24262b;
+    padding: 70px 0;
+}
+.footer-col{
+   width: 25%;
+   padding: 0 15px;
+}
+.footer-col h4{
+  font-size: 18px;
+  color: #ffffff;
+  text-transform: capitalize;
+  margin-bottom: 35px;
+  font-weight: 500;
+  position: relative;
+}
+.footer-col h4::before{
+  content: '';
+  position: absolute;
+  left:0;
+  bottom: -10px;
+  background-color: #e91e63;
+  height: 2px;
+  box-sizing: border-box;
+  width: 50px;
+}
+.footer-col ul li:not(:last-child){
+  margin-bottom: 10px;
+}
+.footer-col ul li a{
+  font-size: 16px;
+  text-transform: capitalize;
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: 300;
+  color: #bbbbbb;
+  display: block;
+  transition: all 0.3s ease;
+}
+.footer-col ul li a:hover{
+  color: #ffffff;
+  padding-left: 8px;
+}
+.footer-col .social-links a{
+  display: inline-block;
+  height: 40px;
+  width: 40px;
+  background-color: rgba(255,255,255,0.2);
+  margin:0 10px 10px 0;
+  text-align: center;
+  line-height: 40px;
+  border-radius: 50%;
+  color: #ffffff;
+  transition: all 0.5s ease;
+}
+.footer-col .social-links a:hover{
+  color: #24262b;
+  background-color: #ffffff;
+}
+
+/*responsive*/
+@media(max-width: 767px){
+  .footer-col{
+    width: 50%;
+    margin-bottom: 30px;
+}
+}
+@media(max-width: 574px){
+  .footer-col{
+    width: 100%;
+}
+}
+a {
+  color: black;
+}
+
+.works{
+            text-align: center;
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: space-evenly;
+        }
+        .step {
+            margin: 20px;
+        }
+        .icon {
+            width: 100px; /* Adjust size as needed */
+            height: auto;
+            margin-bottom: 10px;
+        }
+
+        .stats-section {
+            display: flex;
+            justify-content: space-around;
+            background-color: #f7f7f7;
+            padding: inline 20px;
+            padding-block: 50px;
+            margin-left: 100px;
+
+        }
+        .stat-card {
+            width: calc(25% - (20px * 3 / 4));
+            margin: 10px;
+        }
+        .stat-card .icon {
+            /* Style for icon */
+        }
+        .stat-card h2 {
+            font-size: 36px;
+            color: #ff9900;
+            margin-bottom: 5px;
+        }
+        .stat-card p {
+            color: #333;
+            font-size: 14px;
+        }
+        .number{
+          /* font-size: larger; */
+        }
+
+        .pizza-section {
+            display: flex;
+            justify-content: space-around;
+            background-color: #795d31;
+        }
+        .pizza-card {
+            width: calc(25% - 40px);
+            margin: 10px;
+            padding: 20px;
+            box-sizing: border-box;
+            text-align: center;
+            border: 1px solid #ccc;
+            background-color: white;
+        }
+        .pizza-card img {
+            max-width: 100%;
+            height: auto;
+        }
+        .pizza-card h3 {
+            font-size: 18px;
+            margin-top: 10px;
+        }
+        .pizza-card p {
+            font-size: 14px;
+            color: #555;
+        }
+        .button {
+            background-color: #c74710;
+            color: white;
+            padding: 10px;
+            text-decoration: none;
+            display: inline-block;
+            margin-top: 15px;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="navbar">
+            <div style=" margin-right: 40px; margin-left: 40px ; display:flex ; justify-content: space-between ;">
+                <img style="padding-top:10px"src="logo.png" width="230" height="70" alt="logo.png">
+                <div style="display:flex ;">
+                    <div style="padding:35px; color: black;">
+                       <a style="color: black;" href="index.html">HOME</a>
+                    </div>
+                    <div style="padding:35px; color: black;">
+                        <a href="AboutUs.html">ABOUT US</a>
+                    </div>
+                    <div style="padding:35px ; color: black;">
+                        <a href="menu.html">MENU</a>
+                    </div>
+                    <div style="padding:35px ; color: black;">
+                        <a href="services.html">SERVICES</a>
+                    </div>
+                    <div style="padding:35px;color: black;">
+                        <a href="registration.html">REGISTER</a>
+                    </div>
+                    <div>
+                    <form action="/addtocart" class="inline" method="get">
+                      <button style="padding-inline: 29px;padding-block:8px ; margin-top:27px; background-color: rgb(149, 100, 66);">ORDER NOW</button>
+                  </form>
+                    </div>
+                    
+                </div>
+            </div>
+           
+        </div>
+        <div id="left-intro">
+            <div>
+                <h1 style="text-shadow: 1px 2px 2px ;">ENJOY OUR NEW LINE OF GOURMET PIZZAERIA</h1>
+                <p>Right from the town of italy with the original taste of an italian pizza n34vh p5v7ct747tr 74 784hu4huyy54ugtyu g4yuygypfpshfphw4o8gsfo785ytp78y78t78 t78 fg78 rf8gryg</p>
+            </div>
+            
+
+        </div>
+        <br><br><br><br><br><br>
+        <div class="pizza-section">
+          <div class="pizza-card">
+              <img src="pizza.png" alt="Menu Icon">
+              <h3>FARMHOUSE PIZZA </h3>
+              <p>Explore our range of delicious Pizzas, delivered in 30 minutes!</p>
+              <a href="menu.html" class="button">ORDER NOW</a>
+          </div>
+          <div class="pizza-card">
+              <img src="pizza.png" alt="Store Icon">
+              <h3>7 CHEESE PIZZA</h3>
+              <p>Find a Domino's Pizza restaurant near you</p>
+              <a href="menu.html" class="button">ORDER NOW</a>
+          </div>
+          <div class="pizza-card">
+              <img src="pizza.png" alt="Balloons Icon">
+              <h3>INDI PANNER PIZZA</h3>
+              <p>Celebrate the joy of birthday with Fresh & Hot pizzas</p>
+              <a href="menu.html" class="button">ORDER NOW</a>
+          </div>
+          <div class="pizza-card">
+              <img src="pizza.png" alt="Delivery Icon">
+              <h3>veggie feast</h3>
+              <p>Love Domino's? Kitchen for weddings / corporate events</p>
+              <a href="menu.html" class="button">ORDER NOW</a>
+          </div>
+          
+      </div>
+    </div>
+</div>
+<br><br>
+<!-- <h1 style="text-align: center;">how it works</h1> -->
+<div class="works">
+  
+  <div class="step">
+      <img src="restaurant.png" alt="Select Restaurant Icon" class="icon">
+      <h3>Select Restaurant</h3>
+      <p>Choose your favorite restaurant.</p>
+  </div>
+  <div class="step">
+      <img src="menu.png" alt="Select Menu Icon" class="icon">
+      <h3>Select Menu</h3>
+      <p>Browse the menu and select your desired items.</p>
+  </div>
+  <div class="step">
+      <img src="delivery-man.png" alt="Wait for Delivery Icon" class="icon">
+      <h3>Wait for Delivery</h3>
+      <p>Relax while your order is delivered to your doorstep.</p>
+  </div>
+</div>
+<br><br><br>
+<hr>
+<div class="stats-section">
+  <div class="stat-card">
+      <div class="icon"><!-- Icon goes here --></div>
+      <div class="number"><h1>Service shows</h1> <h1>good taste</h1></div>
+  </div>
+  <div class="stat-card">
+      <div class="icon"><!-- Icon goes here --></div>
+      <h2>97%</h2>
+      <p>Satisfied Customer</p>
+  </div>
+  <div class="stat-card">
+      <div class="icon"><!-- Icon goes here --></div>
+      <h2>12</h2>
+      <p>Best Restaurants</p>
+  </div>
+  <div class="stat-card">
+      <div class="icon"><!-- Icon goes here --></div>
+      <h2>1K+</h2>
+      <p>Food Delivered</p>
+  </div>
+</div>
+    <footer class="footer">
+        <div class="containerfooter">
+         <div class="row">
+           <div class="footer-col">
+             <h4>company</h4>
+             <ul>
+               <li><a href="#">about us</a></li>
+               <li><a href="#">our services</a></li>
+               <li><a href="#">privacy policy</a></li>
+               <li><a href="#">affiliate program</a></li>
+             </ul>
+           </div>
+           <div class="footer-col">
+             <h4>get help</h4>
+             <ul>
+               <li><a href="#">FAQ</a></li>
+               <li><a href="#">shipping</a></li>
+               <li><a href="#">returns</a></li>
+               <li><a href="#">order status</a></li>
+               <li><a href="#">payment options</a></li>
+             </ul>
+           </div>
+           <div class="footer-col">
+             <h4>online shop</h4>
+             <ul>
+               <li><a href="#">watch</a></li>
+               <li><a href="#">bag</a></li>
+               <li><a href="#">shoes</a></li>
+               <li><a href="#">dress</a></li>
+             </ul>
+           </div>
+           <div class="footer-col">
+             <h4>follow us</h4>
+             <div class="social-links">
+               <a href="#"><i class="fab fa-facebook-f"></i></a>
+               <a href="#"><i class="fab fa-twitter"></i></a>
+               <a href="#"><i class="fab fa-instagram"></i></a>
+               <a href="#"><i class="fab fa-linkedin-in"></i></a>
+             </div>
+           </div>
+         </div>
+        </div>
+     </footer>
+   
+
+    
+</body>
+</html>

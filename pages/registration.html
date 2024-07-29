@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="shortcut icon"
+      href="https://th.bing.com/th/id/OIP.kwE8IapDUTtylieeRnn2YAHaHa?pid=ImgDet&rs=1"
+      type="image/x-icon"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+      integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
+      crossorigin="anonymous"
+    />
+    <title>Registration form</title>
+  </head>
+  <body class="background-radial-gradient">
+    <style>
+      .background-radial-gradient{
+            background-image:url('OIP.jpg');
+            background-size: cover; /* Add this to cover the entire container */
+            background-repeat: no-repeat;
+            height: 1000px;
+      }
+
+    
+ #card {
+        margin-top: 100px;
+        top: 7%;
+        right: 34%;
+        width: 450px;
+        margin: 100px auto;
+        text-align: center;
+        position: absolute;
+        background:rgb(116, 89, 76);
+        backdrop-filter: blur(30px);
+        color: white;
+ }    
+      .form-outline > input{
+        background-color:rgb(218, 215, 213);
+      }
+    </style>
+    <section class="text-center">
+        <div
+        id="radius-shape-1"
+        class="position-absolute rounded-circle shadow-5-strong"
+      >
+    <img src="logo.png" alt="" style="height: 100px;"></div>
+      <div id="radius-shape-2" class="position-absolute rounded-circle shadow-5-strong"></div>
+<div class="card mx-9 lg-12 mx-md-5 shadow-5-strong" id="card">
+        <div class="card-body px-md-5 align-left">
+      
+          <h2 class="fw-bold mb-5">Registration Form</h2>
+         
+          <form method="post" action="/register" style="text-align: left">
+            <div class="form-outline mb-4">
+              <label class="form-label" for="form3Example1">Name</label>
+              <input type="text" id="form3Example1" name="name" class="form-control" />
+            </div>
+
+            <div class="form-outline mb-4">
+              <label class="form-label" for="form3Example3"
+                >Email address</label
+              >
+              <input type="email" id="form3Example3"  name="email" class="form-control" />
+            </div>
+
+            <div class="form-outline mb-4">
+              <label class="form-label" for="form3Example4">Password</label>
+              <input type="password" id="form3Example4"  name="password" class="form-control" />
+            </div>
+
+            <button type="submit" class="btn btn-primary btn-block mb-4">
+              Register
+            </button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js"
+      integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
