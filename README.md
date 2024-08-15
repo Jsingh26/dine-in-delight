@@ -85,7 +85,8 @@ This project is designed to be hosted on [Render](https://render.com/). Follow t
 
 The registration form application successfully captures user data and stores it in a MongoDB database. Validation mechanisms ensure the integrity of the data, providing a secure and user-friendly experience.
 
-![reg](https://github.com/varshakodati/Registration-form/assets/127124622/e1835255-7942-4db2-a871-c025b1d13ba9)
+![image](https://github.com/user-attachments/assets/7466c0f1-85f5-468c-af73-9c3df9deb1e4)
+
 
 
 ## Future Work:
