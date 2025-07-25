@@ -13,7 +13,7 @@ const port=process.env.PORT || 3000;
 
 const username=process.env.MONGODB_USERNAME;
 const password=process.env.MONGODB_PASSWORD;
-mongoose.connect(`mongodb+srv://japinder2004:DoSfh0qu60GOnEMT@cluster0.jliedkg.mongodb.net/`,{
+mongoose.connect(`#pste your mongodb string`,{
     
 });
 
